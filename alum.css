@@ -1,0 +1,402 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap");
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #232B2B;
+}
+
+html {
+    background-color: #232B2B;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #18191B;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #F53803;
+    opacity: .8;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #F53803;
+}
+
+
+/*FOOOOOOONTS*/
+@font-face {
+    font-family: 'arm';
+    src: url('fonts/arm-webfont.woff2') format('woff2'),
+        url('fonts/arm-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'mont';
+    src: url('fonts/mont-webfont.woff2') format('woff2'),
+        url('fonts/mont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nexa';
+    src: url('fonts/nexa-webfont.woff2') format('woff2'),
+        url('fonts/nexa-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'NB';
+    src: url('fonts/north-webfont.woff2') format('woff2'),
+        url('fonts/north-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pop';
+    src: url('fonts/pop-webfont.woff2') format('woff2'),
+        url('fonts/pop-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinsblack';
+    src: url('fonts/pop_h-webfont.woff2') format('woff2'),
+        url('fonts/pop_h-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Olga';
+    src: url('fonts/olga-webfont.woff2') format('woff2'),
+        url('fonts/olga-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'plex';
+    src: url('fonts/plex-webfont.woff2') format('woff2'),
+        url('fonts/plex-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rale';
+    src: url('fonts/rale-webfont.woff2') format('woff2'),
+        url('fonts/rale-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('fonts/raleway-regular-webfont.woff2') format('woff2'),
+        url('fonts/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'three';
+    src: url('fonts/three-webfont.woff2') format('woff2'),
+        url('fonts/three-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*
+@font-face {
+    font-family: Olga;
+    src: url(fonts/Olga.ttf);
+}
+
+@font-face {
+    font-family: NB;
+    src: url(fonts/north.otf);
+}
+
+@font-face {
+    font-family: arm;
+    src: url(fonts/arm.otf);
+}
+
+@font-face {
+    font-family: three;
+    src: url(fonts/three.ttf);
+}
+
+@font-face {
+    font-family: pop;
+    src: url(fonts/pop.otf);
+}
+
+@font-face {
+    font-family: plex;
+    src: url(fonts/plex.ttf);
+}
+
+@font-face {
+    font-family: futura;
+    src: url(fonts/futura.ttf);
+}
+
+@font-face {
+    font-family: mont;
+    src: url(fonts/mont.otf);
+}
+
+@font-face {
+    font-family: rale;
+    src: url(fonts/rale.ttf);
+}
+
+@font-face {
+    font-family: nexa;
+    src: url(fonts/nexa.otf);
+}
+*/
+@font-face {
+    font-family: 'Trajan';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Trajan'), url('fonts/TrajanPro-Regular.woff') format('woff');
+}
+/*
+.home_btn:hover{
+    background-color: white;
+    color: orangered;
+}*/
+
+
+
+
+
+
+.bs-example ul {
+    margin-left: 40%;
+}
+
+.bs-example a {
+    border: none;
+    font-family: pop;
+    font-weight: 400;
+    color: white;
+    font-size: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 0;
+
+}
+
+.bs-example a:hover {
+    border: none;
+    font-family: pop;
+    font-weight: 400;
+    color: orangered;
+    font-size: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 0;
+}
+
+
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+/*
+@media screen and (min-width: 700px) {
+ .bs-example ul{
+    margin-left: 30%;
+}
+@media screen and (min-width: 480px) {
+ .bs-example ul{
+    margin-left: 22%;
+}
+@media screen and (min-width: 300px) {
+ .bs-example ul{
+    margin-left: 10%;
+}*/
+
+
+
+.footer {
+    color: #fff;
+    background-attachment: fixed;
+    background-color: #222;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.footer p {
+    color: #ccc;
+}
+
+.footer a {
+    color: #ccc;
+}
+
+.social-pet li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-pet li a {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    line-height: 35px;
+    background-color: #3a5a95;
+    color: #fff;
+}
+
+.social-pet li:nth-child(2) a {
+    background-color: #57aced;
+}
+
+.social-pet li:nth-child(3) a {
+    background-color: #dd4f43;
+}
+
+.social-pet li:nth-child(4) a {
+    background-color: #6b27b2;
+}
+
+.social-pet li a:hover {
+    background-color: orangered;
+}
+
+.social-pet li a:hover i {
+    transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.recent-post li {
+    display: block;
+    color: #ccc;
+    margin-bottom: 25px;
+}
+
+.recent-post li label {
+    float: left;
+    border: 2px solid #ccc;
+    padding: 1px 7px;
+    text-align: center;
+}
+
+.recent-post li label span {
+    color: #fff;
+}
+
+.footer .input-group-addon {
+    background-color: #0141a2;
+    padding: 10px;
+}
+
+.f-address li {
+    display: inline-block;
+}
+
+.f-address li i {
+    color: #2995de;
+    font-size: 18px;
+}
+
+.f-address li a {
+    color: #ccc;
+}
+
+/*=-Copyright-=*/
+.copyright {
+    background-color: #111;
+    padding: 12px 0;
+    font-size: 14px;
+}

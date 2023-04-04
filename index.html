@@ -1,0 +1,1768 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <df-messenger intent="WELCOME" chat-title="Haywire chabot" agent-id="f6a2f764-9b3f-49df-979a-89298b95070a" language-code="en" bgcolor="#ffffff">
+    </df-messenger>
+    <style>
+        @media only screen and (max-width: 600px) {
+            .navbar-collapse .nav_hw {
+                font-size: 2.4em;
+            }
+
+            .header_hw h2 {
+                font-size: 65px;
+            }
+
+            .header_hw h3 {
+                font-size: 65px;
+            }
+        }
+    </style>
+
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+
+    <title>HW3</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="head my-3">
+            <nav class="navbar navbar-expand-lg navbar-light head__custom-nav">
+
+                <img class="img-fluid" src="https://i.imgur.com/K1akVDm.png" width="15%" style="min-width: 13%;" />
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                    <span><img src="nav.png" alt="" /></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav" style="font-family: plex;">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#abt" style="font-size: 1.5em !important;">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#events" style="font-size: 1.5em !important;">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#rules" style="font-size: 1.5em !important;">Rules</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#prizes" style="font-size: 1.5em !important;">Prizes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#updates  " style="font-size: 1.5em !important;">Updates</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team" style="font-size: 1.5em !important;">Team</a>
+                        </li>
+                     <li class="nav-item">
+                            <a class="nav-link" href="http://ctf.haywire.in" style="font-size: 1.5em !important;">coDEcode</a>                        </li>    <li class="nav-item">
+                            <a class="nav-link" href="final.pdf" style="font-size: 1.5em !important;" download>RESULTS</a>
+                        </li>
+                   
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <div class="container">
+        <div class="row header_hw custom-section d-flex align-items-center" style="padding-top: 0;">
+            <div class="col-12 col-lg-4">
+                <h2 style="font-family: 'NB'; color: #ff270c; font-size: 80px;">
+                    HayWire
+                </h2>
+                <h3 style="margin-top: 5px;">
+                    <span style="font-family: 'three'; color: #fff; font-size: 1.5em;">3.0</span>
+                </h3>
+
+                <p style="font-family: Trajan; font-size: 17px;">PRESENTED BY</p>
+                <p style="font-family: Trajan; font-size: 22px;">
+                    MOUNT CARMEL SCHOOL,<br />
+                    DWARKA
+                </p>
+
+                <a href="Haywire 3.0 (2).pdf">Timeline</a>
+                <a class="second_btn" href="ppt.pdf" download>Final Results</a>
+            </div>
+            <div class="col-12 col-lg-8">
+                <img src="banner.png" alt="Team process banner" />
+            </div>
+        </div>
+    </div>
+
+    <div id="abt" class="jumbotron jumbotron-fluid" style="background-color: #3b444b;">
+        <div class="container">
+            <h1 class="display-4 align-text-center" style="font-family: 'pop'; color: white;" id="abt">
+                About Us
+            </h1>
+            <p class="lead" style="
+            text-align: justify;
+            font-family: 'pop';
+            color: white;
+            opacity: 0.8;
+          ">
+                The Haywire Club is a group of young tech enthusiasts from Mount
+                Carmel School, Dwarka, New Delhi. This club was started back in the year
+                of 2018 by a group of students who wished to bring about an electronic
+                renaissance and help provide a healthy competing ground for budding
+                electronic artists in our country. The mantle of this revolution of
+                sorts has been passed down each year to new students and this legacy
+                is taken and improved upon each year to bring the Ultimate tech
+                showdown to those who hunger for proving their technological prowess.
+                We are glad to announce that once again this year we will be hosting
+                the new and improved Haywire 3.0 with multiple wide ranging events to
+                allow anyone to show off their finesse with the only limiting factor
+                being their skill. Hush tech enthusiasts! Chaos is in the air….. cause
+                it's gonna get Haywire!
+            </p>
+        </div>
+    </div>
+    <span id="events"></span>
+    <h1 style="font-family: 'plex'; color: #fff; font-size: ;" class="display-2 text-center">
+        Events
+    </h1>
+    <div class="container">
+        <div class="row pt-5 m-auto">
+            <div class="col-md-6 col-lg-4 pb-3">
+                <div class="card card-custom bg-black" style="
+              height: 450px;
+              background-color: #100f0f;
+              border: none;
+              color: white;
+            ">
+                    <div class="card-custom-img" style="background-image: url(https://i.imgur.com/dB18lAe.png);"></div>
+                    <div class="card-custom-avatar">
+                        <img class="img-fluid" src="https://i.imgur.com/A99LFI8.png" alt="Avatar" />
+                    </div>
+                    <div class="card-body" style="overflow-y: auto;">
+                        <h4 class="card-title" style="font-family: 'nexa'; font-size: 2.2em;">
+                            Hackathon
+                        </h4>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Classes :</span>
+                            <span style="opacity: 0.6; font-family: rale;">9 to 12</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">No. of Teams:</span>
+                            <span style="opacity: 0.6; font-family: rale;">1</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">No. of Participants per team :</span>
+                            <span style="opacity: 0.6; font-family: rale;">2</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Theme :</span>
+                            <span style="opacity: 0.6; font-family: rale;">Innovation
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Contact :</span>
+                            <span style="opacity: 0.6; font-family: rale;">hackathon@haywire.in
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Prompt :</span>
+                            <span style="opacity: 0.6; font-family: rale;">After the COVID-19 pandemic, things have changed a lot. The
+                                new normal is setting in. Many businesses flourished and many
+                                have lost their value. While some doors have been shut, new
+                                pathways have also opened up. We give you the liberty to
+                                choose what happens in the post-pandemic world and hack
+                                revolutionary ideas that will transform the future of this
+                                planet
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Rules :</span>
+                            <span>
+                                <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                                    <li>
+                                        1) Hack should revolve around the provided prompt. Hacks
+                                        that include elements of AI will be given extra points.
+                                    </li>
+                                    <li>
+                                        2) Hack must include a presentation describing it and a
+                                        website. It may also include a video/trailer, 3D model or
+                                        app (more = better).
+                                    </li>
+                                    <li>
+                                        3) The subject line should be ‘hackathon_schoolname’ and
+                                        file name must be the school name of the participating
+                                        team
+                                    </li>
+                                    <li>
+                                        4) Teams have to submit their hacks in a zip folder by
+                                        12<sup>th</sup>July 2020 to our email id- hackathon@haywire.in
+                                    </li>
+                                    <li>
+                                        5) Final results will be uploaded on our website on 19<sup>th</sup>
+                                        July 2020.
+                                    </li>
+                                </ul>
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Heads :</span>
+                        </p>
+                        <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                            <li>● Laksshay Sehrawat </li>
+                            <li>● Shrey Arora </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer" style="background: inherit; border: none;"></div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 pb-3">
+                <div class="card card-custom bg-black" style="
+              height: 450px;
+              background-color: #100f0f;
+              border: none;
+              color: white;
+            ">
+                    <div class="card-custom-img" style="background-image: url(54.jpg);"></div>
+                    <div class="card-custom-avatar">
+                        <img class="img-fluid" src="unlock2.png" alt="Avatar" width="50%" />
+                    </div>
+                    <div class="card-body" style="overflow-y: auto;">
+                        <h4 class="card-title" style="font-family: ; font-size: 2.2em;">
+                            Algorithm Unlock
+                        </h4>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Classes :</span>
+                            <span style="opacity: 0.6; font-family: rale;">11 to 12</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">No. of Teams:</span>
+                            <span style="opacity: 0.6; font-family: rale;">1</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">No. of Participants per team :</span>
+                            <span style="opacity: 0.6; font-family: rale;">1</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Platform :</span>
+                            <span style="opacity: 0.6; font-family: rale;">Hackerank </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Languages :</span>
+                            <span style="opacity: 0.6; font-family: rale;">
+                                C/C++, Python 2/3
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Contact :</span>
+                            <span style="opacity: 0.6; font-family: rale;">prog@haywire.in
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Rules :</span>
+                            <span>
+                                <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                                    <li>
+                                        1) A preliminary round will be conducted on Hackerrank on
+                                        15th July 2020 from 8:00pm to 9:30pm
+                                    </li>
+                                    <li>
+                                        2) The details for the preliminary round will be uploaded
+                                        on haywire.in and instagram page.
+                                    </li>
+                                    <li>
+                                        3) Results of the prelims will be uploaded on the website
+                                        on 16thJuly 2020.
+                                    </li>
+                                    <li>
+                                        4) Top 8 teams will be selected from the preliminaries to
+                                        participate in the final round, which will be conducted on
+                                        Hackerrank on 18th July 2020 from 8:00pm to 9:30pm.
+                                    </li>
+                                </ul>
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Heads :</span>
+                        </p>
+                        <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                            <li>● Varun Khantwal</li>
+                            <li>● Palash Goyal </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer" style="background: inherit; border: none;"></div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 pb-3">
+                <div class="card card-custom bg-black" style="
+              height: 450px;
+              background-color: #100f0f;
+              border: none;
+              color: white;
+            ">
+                    <div class="card-custom-img" style="background-image: url(https://i.imgur.com/SWDoLf4l.png);"></div>
+                    <div class="card-custom-avatar">
+                        <img class="img-fluid" src="https://i.imgur.com/Hw9GIOD.png" alt="Avatar" />
+                    </div>
+                    <div class="card-body" style="overflow-y: auto;">
+                        <h4 class="card-title" style="font-family: 'nexa'; font-size: 2.2em;">
+                            App Matrix
+                        </h4>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Classes :</span>
+                            <span style="opacity: 0.6; font-family: rale;">Open</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">No. of Teams:</span>
+                            <span style="opacity: 0.6; font-family: rale;">1</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">No. of Participants per team :</span>
+                            <span style="opacity: 0.6; font-family: rale;">2</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Platform :</span>
+                            <span style="opacity: 0.6; font-family: rale;">Any (eg. MIT App Inventor, Android Studio etc)
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Contact :</span>
+                            <span style="opacity: 0.6; font-family: rale;">apkdev@haywire.in
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Prompt :</span>
+                            <span style="opacity: 0.6; font-family: rale;">Create an app that will help in improving the efficiency of
+                                the Indian education system so as to help the students of our
+                                nation imbibe effective learning outcomes
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Rules :</span>
+                            <span>
+                                <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                                    <li>
+                                        1) Each team has to make an Android app along with a
+                                        presentation and video describing the same.
+                                    </li>
+                                    <li>
+                                        2) Teams have to submit their data files in a zip folder
+                                        which should include source code, video and the apk
+                                        version of the app in the format “apkdev_schoolname” and
+                                        mail to apkdev@haywire.in.
+                                    </li>
+                                    <li>
+                                        3) The last date to submit the zip files is 13
+                                        <sup>th</sup> July 2020.
+                                    </li>
+                                    <li>
+                                        4) The code must not be extracted from any online or
+                                        offline source.
+                                    </li>
+                                    <li>
+                                        5) Prelim result will be uploaded on our website on 16th July, 2020.
+                                        fTop 8 teams will be selected for finals to be conducted
+                                        on 19<sup>th</sup> July 2020 @11am on Zoom.
+                                    </li>
+                                    <li>
+                                        6)Whatsapp group of the selected finalists will be formed.
+                                        Zoom ids will be shared 10 minutes prior to the event in
+                                        the group
+                                    </li>
+                                    <li>
+                                        7) The finalist are requested to download NOX/BlueStacks
+                                        Emulator on their Laptops/PC’s.
+                                    </li>
+                                    <li>8) The maximum limit for intro video is 2 minutes.</li>
+                                    <li>
+                                        9) Selected teams will present their app to the judges in
+                                        the final round.
+                                    </li>
+                                    <li>
+                                        10) Duration is 5 minutes per team for presenting followed
+                                        by a questionanswer round.
+                                    </li>
+                                </ul>
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Heads :</span>
+                        </p>
+                        <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                            <li>● Ansh Vashist </li>
+                            <li>● Dhruv Srivastava-</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer" style="background: inherit; border: none;"></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 pb-3" style="justify-content: center;">
+                <div class="card card-custom bg-black" style="
+              height: 450px;
+              background-color: #100f0f;
+              border: none;
+              color: white;
+            ">
+                    <div class="card-custom-img" style="background-image: url(jQ.jpg);"></div>
+                    <div class="card-custom-avatar">
+                        <img class="img-fluid" src="https://i.imgur.com/bgaIEDc.png" alt="Avatar" />
+                    </div>
+                    <div class="card-body" style="overflow-y: auto;">
+                        <h4 class="card-title" style="font-family: 'nexa'; font-size: 2.2em;">
+                            Think Bots
+                        </h4>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Classes :</span>
+                            <span style="opacity: 0.6; font-family: rale;">6 to 8</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">No. of Teams:</span>
+                            <span style="opacity: 0.6; font-family: rale;">1</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">No. of Participants per team :</span>
+                            <span style="opacity: 0.6; font-family: rale;">1</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Platform (Prelim):</span>
+                            <span style="opacity: 0.6; font-family: rale;">Zoom + Google Form
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Platform (Finals) :</span>
+                            <span style="opacity: 0.6; font-family: rale;">Zoom </span>
+                        </p>
+
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Contact :</span>
+                            <span style="opacity: 0.6; font-family: rale;">jrquiz@haywire.in</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Rules :</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Prelims :</span><span>
+                                <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                                    <li>
+                                        1) The prelims will be held on 13<sup>th</sup> July 2020
+                                        from 11:00 am to 11:20 am
+                                    </li>
+                                    <li>
+                                        2) The link for quiz and Zoom id will be provided in the
+                                        whatsapp group of quiz participants, which will be formed
+                                        after the registration.
+                                    </li>
+                                    <li>
+                                        3) Students need 2 devices, from one device they will be
+                                        monitored on zoom and from the other they will open the
+                                        quiz link. The device must be placed on your either side,
+                                        in such a way that it captures your hands, face and the
+                                        device on which you are attempting the quiz.
+                                    </li>
+                                    <li>
+                                        4) The prelims will start at 11.00 am but it is requested
+                                        that the participants join 10 minutes prior to the
+                                        specified time.
+                                    </li>
+                                    <li>
+                                        5) There will be 20 questions in all and time allotted
+                                        will be 20 minutes which means 1 minute will be given for
+                                        reading answering the questions.
+                                    </li>
+                                    <li>
+                                        6) Questions will be objective type with MCQ, One word,
+                                        Identify and Fill ups type questions.
+                                    </li>
+                                    <li>
+                                        7) Results of the prelims will be uploaded on the website
+                                        on 15 <sup>th</sup>July 2020.
+                                    </li>
+                                    <li>
+                                        8) Top 6 teams will be selected for competing in the
+                                        finals to be held on 17<sup>th</sup> July 2020 on Zoom.
+                                    </li>
+                                </ul>
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Finals :</span>
+                            <span>
+                                <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                                    <li>
+                                        1) The finals will be held on zoom on 17
+                                        <sup>th</sup> July 2020 @11:00 am where the short-listed
+                                        participants and the Quiz Master will be present.
+                                    </li>
+                                    <li>
+                                        2) The meeting ID and password for joining the zoom
+                                        meeting would be provided in the Whatsapp group.
+                                    </li>
+                                    <li>
+                                        3) The participants are required to keep their camera on
+                                        and their hands should be visible for monitoring.
+                                    </li>
+                                    <li>
+                                        4) The name of the participant in the Zoom should be in
+                                        the format “Name – School” <br />
+                                        o For example: ‘Rahul-MCS DW’
+                                    </li>
+                                    <li>5) Each participant would be asked 5 questions.</li>
+                                    <li>
+                                        6) Each question would carry 10 points and each
+                                        participant would be given two chances. <br />
+                                        o If he/she answers correctly in the first go then 10
+                                        points would be awarded. <br />
+                                        o If the student takes the second try and answers
+                                        correctly will be awarded 5 points.
+                                    </li>
+                                </ul>
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Heads :</span>
+                        </p>
+                        <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                            <li>● Isha Dhull</li>
+                            <li>● Swastik Baranwal</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer" style="background: inherit; border: none;"></div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 pb-3" style="justify-content: center;">
+                <div class="card card-custom bg-black" style="
+              height: 450px;
+              background-color: #100f0f;
+              border: none;
+              color: white;
+            ">
+                    <div class="card-custom-img" style="background-image: url(codecode.svg);"></div>
+                    <div class="card-custom-avatar">
+                        <img class="img-fluid" src="https://i.imgur.com/5YkS9fx.png" alt="Avatar" />
+                    </div>
+                    <div class="card-body" style="overflow-y: auto;">
+                        <h4 class="card-title" style="font-family: 'nexa'; font-size: 2.2em;">
+                            coDEcode [43 03'03 N 76 19'45 W]
+                        </h4>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Classes :</span>
+                            <span style="opacity: 0.6; font-family: rale;">9 to 12</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">No. of Teams:</span>
+                            <span style="opacity: 0.6; font-family: rale;">1</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">No. of Participants per team :</span>
+                            <span style="opacity: 0.6; font-family: rale;">1</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Contact :</span>
+                            <span style="opacity: 0.6; font-family: rale;">codecode@haywire.in
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Rules :</span>
+                            <span>
+                                <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                                    <li>1) The name of the event says it all.</li>
+                                    <li>
+                                        2) Prelims:- An audio file would be uploaded on haywire.in
+                                        by 8 <sup>th</sup> July 2020. You know what follows next.
+                                    </li>
+                                    <li>
+                                        3) The audio file will be the path to your answers and we-
+                                        the direction pointers.
+                                    </li>
+                                    <li>
+                                        4) Your queries, discoveries and failures will be
+                                        determined and resolved on the instagram handle of
+                                        Haywire.
+                                    </li>
+                                    <li>
+                                        5) BEWARE: The facts and numbers must point to the answer
+                                        because that will be your gateway to the final round.
+                                    </li>
+                                    <li>
+                                        6) Teams will get only 5 chances to find the correct answer.
+                                    </li>
+                                    <li>
+                                        7) The prelim round will end as soon as 5 teams reach the
+                                        answer.
+                                    </li>
+                                    <li>
+                                        8) The announcement will be made on haywire.in as well as
+                                        social pages. This means friend time or it may befriend
+                                        you
+                                    </li>
+                                    <li>9) FINAL:- Mist and uncertainty on 17th July 2020.</li>
+                                    <li>10) It is a single winner event.</li>
+                                </ul>
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Heads :</span>
+                        </p>
+                        <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                            <li>● Arihant  </li>
+                            <li>● Arjun Nain </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer" style="background: inherit; border: none;"></div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 pb-3" style="justify-content: center;">
+                <div class="card card-custom bg-black" style="
+              height: 450px;
+              background-color: #100f0f;
+              border: none;
+              color: white;
+            ">
+                    <div class="card-custom-img" style="background-image: url(https://i.imgur.com/6T4bUnc.png);"></div>
+                    <div class="card-custom-avatar">
+                        <img class="img-fluid" src="https://i.imgur.com/RvG8Gpo.png" alt="Avatar" />
+                    </div>
+                    <div class="card-body" style="overflow-y: auto;">
+                        <h4 class="card-title" style="font-family: 'nexa'; font-size: 2.2em;">
+                            Cryptic Hunt
+                        </h4>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Classes :</span>
+                            <span style="opacity: 0.6; font-family: rale;">Open</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">No. of Teams:</span>
+                            <span style="opacity: 0.6; font-family: rale;">1</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">No. of Participants per team :</span>
+                            <span style="opacity: 0.6; font-family: rale;">
+                                infinite, 1 leader</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Platform :</span>
+                            <span style="opacity: 0.6; font-family: rale;">
+                                website, Discord server
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Languages :</span>
+                            <span style="opacity: 0.6; font-family: rale;">
+                                English, Gallifreyan</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Contact :</span>
+                            <span style="opacity: 0.6; font-family: rale;">cryptic@haywire.in
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Rules :</span>
+                            <span>
+                                <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                                    <li>
+                                        1) Participants will have to solve as many cryptic puzzles
+                                        that they can.
+                                    </li>
+                                    <li>2) The internet is your companion.</li>
+                                    <li>3) THE ANSWER IS 42, BUT DO YOU KNOW THE QUESTION?</li>
+                                    <li>
+                                        4) The event runs for 24 hours starting from 13thJuly 2020
+                                        @12 noon to 14thJuly 2020 @12 noon.
+                                    </li>
+                                    <li>
+                                        5) URL and credentials will be sent to the school team
+                                        leader on mail
+                                    </li>
+                                    <li>
+                                        6) Updates and hints will be posted on haywire.in and also
+                                        on our instagram handle.
+                                    </li>
+                                </ul>
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Heads :</span>
+                        </p>
+                        <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                            <li>● Shrey Arora </li>
+                            <li>● Arul Ahluwalia - </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer" style="background: inherit; border: none;"></div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 pb-3" style="justify-content: center;">
+                <div class="card card-custom bg-black" style="
+              height: 450px;
+              background-color: #100f0f;
+              border: none;
+              color: white;
+            ">
+                    <div class="card-custom-img" style="background-image: url(ww.jpg);"></div>
+                    <div class="card-custom-avatar">
+                        <img class="img-fluid" src="34.png" alt="Avatar" />
+                    </div>
+                    <div class="card-body" style="overflow-y: auto;">
+                        <h4 class="card-title" style="font-family: 'nexa'; font-size: 2.2em;">
+                            Web Warriors
+                        </h4>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Classes :</span>
+                            <span style="opacity: 0.6; font-family: rale;">9 to 12</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">No. of Teams:</span>
+                            <span style="opacity: 0.6; font-family: rale;">1</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">No. of Participants per team :</span>
+                            <span style="opacity: 0.6; font-family: rale;">2</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Softwares :</span>
+                            <span style="opacity: 0.6; font-family: rale;">
+                                Sublime Text 3, Google Chrome, Adobe Photoshop and Illustrator
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Languages :</span>
+                            <span style="opacity: 0.6; font-family: rale;">
+                                HTML, CSS, JS, JQuery
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Contact :</span>
+                            <span style="opacity: 0.6; font-family: rale;">webd@haywire.in
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Prompt :</span>
+                            <span style="opacity: 0.6; font-family: rale;">The year is 2100 and Elon Musk has been successful in
+                                creating the Mars Colony and transporting 1/3rd of the
+                                population to Mars. You are a private company pitching your
+                                fast- food chain to none other than SpaceX. This venture could
+                                turn your business world upside down. <br />
+                                Remember:- Fast-food chains rely on online orders therefore
+                                you have to give the Martians a good menu to respond to. You
+                                can take the website to any level: from drive-thru to delivery
+                                to imagination.
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Rules :</span>
+                            <span>
+                                <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                                    <li>
+                                        1) Build an impressive website reinventing the fast-food
+                                        system on Mars.
+                                    </li>
+                                    <li>
+                                        2) Students have to design a website using the above
+                                        prompt. The basic website should contain a menu along with
+                                        the “About Us” and “How We Work” page.
+                                    </li>
+                                    <li>
+                                        3) The website should be based on the theme following
+                                        proper colours and typography.
+                                    </li>
+                                    <li>
+                                        4) This is a designing competition therefore no points
+                                        will be awarded for the backend. We will appreciate
+                                        self-made graphics of the space burger and original
+                                        content.
+                                    </li>
+                                    <li>
+                                        5) The website along with all data is to be zipped with
+                                        filename format “webd_schoolname” and sent to
+                                        webd@haywire.in by 13 th July 2020.
+                                    </li>
+                                    <li>
+                                        6) Extra points will be awarded for hosting the site on
+                                        GitHub Pages or a Domain.
+                                    </li>
+                                    <li>
+                                        7) You must mail the data folder along with the web
+                                        address for the hosted site.
+                                    </li>
+                                </ul>
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Heads :</span>
+                        </p>
+                        <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                            <li>● Devanshu Sinha </li>
+                            <li>● Lakshay Lakra </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer" style="background: inherit; border: none;"></div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 pb-3" style="justify-content: center;">
+                <div class="card card-custom bg-black" style="
+              height: 450px;
+              background-color: #100f0f;
+              border: none;
+              color: white;
+            ">
+                    <div class="card-custom-img" style="background-image: url(https://i.imgur.com/a04IA0fl.png);"></div>
+                    <div class="card-custom-avatar">
+                        <img class="img-fluid" src="https://i.imgur.com/NhYrPXD.png" alt="Avatar" />
+                    </div>
+                    <div class="card-body" style="overflow-y: auto;">
+                        <h4 class="card-title" style="font-family: nexa; font-size: 2.2em;">
+                            Jr. Techies
+                        </h4>
+                        <p class="card-text">
+                            <span style="font-family: rale;">Classes :</span>
+                            <span style="opacity: 0.6; font-family: rale;">6 to 8</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: rale;">No. of Teams:</span>
+                            <span style="opacity: 0.6; font-family: rale;">1</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: rale;">No. of Participants per team :</span>
+                            <span style="opacity: 0.6; font-family: rale;">1</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: rale;">Platform :</span>
+                            <span style="opacity: 0.6; font-family: rale;">Scratch 3.0 (Offline Editor)
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: rale;">Contact :</span>
+                            <span style="opacity: 0.6; font-family: rale;">jrtechies@haywire.in
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: rale;">Rules :</span>
+                            <span>
+                                <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                                    <li>
+                                        1) The project is to be developed on Scratch 3.0 Offline
+                                        Editor
+                                    </li>
+                                    <li>
+                                        2) Create a Jingle/Advertisement for “Immunity Boosting
+                                        Health Drink”.
+                                    </li>
+                                    <li>
+                                        3) Duration of the project should be 40 seconds to 1
+                                        minute.
+                                    </li>
+                                    <li>
+                                        4) Entries should be mailed to jrtechies@haywire.in in a
+                                        zip file by 11 th July 2020.
+                                    </li>
+                                    <li>
+                                        5) The subject line should be ‘scratchadvt_schoolname’ and
+                                        file name must be the participating school name.
+                                    </li>
+                                    <li>
+                                        6) Hand drawn sprites and costumes will get extra points.
+                                    </li>
+                                    <li>7) It should also have relevant music/sound.</li>
+                                    <li>
+                                        8) Audio files should be sent along with the Scratch file.
+                                    </li>
+                                </ul>
+                            </span>
+                        </p>
+
+                        <p class="card-text">
+                            <span style="font-family: rale;">Heads :</span>
+                        </p>
+                        <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                            <li>● Sehajdeep</li>
+                            <li>● Pratyusha Kumar</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer" style="background: inherit; border: none;"></div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 pb-3" style="justify-content: center;">
+                <div class="card card-custom bg-black" style="
+              height: 450px;
+              background-color: #100f0f;
+              border: none;
+              color: white;
+            ">
+                    <div class="card-custom-img" style="background-image: url(https://i.imgur.com/kAZL5mv.jpg);"></div>
+                    <div class="card-custom-avatar">
+                        <img class="img-fluid" src="https://i.imgur.com/ONNwWS9.png" alt="Avatar" />
+                    </div>
+                    <div class="card-body" style="overflow-y: auto;">
+                        <h4 class="card-title" style="font-family: 'nexa'; font-size: 2.2em;">
+                            Memetics
+                        </h4>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Classes :</span>
+                            <span style="opacity: 0.6; font-family: rale;">6 to 12</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">No. of Teams:</span>
+                            <span style="opacity: 0.6; font-family: rale;">Upto 3</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">No. of Participants per team :</span>
+                            <span style="opacity: 0.6; font-family: rale;">1</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Theme :</span>
+                            <span style="opacity: 0.6; font-family: rale;">Open </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Platform :</span>
+                            <span style="opacity: 0.6; font-family: rale;">
+                                Haywire subreddit
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Contact :</span>
+                            <span style="opacity: 0.6; font-family: rale;">memetics@haywire.in
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Rules :</span>
+                            <span>
+                                <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                                    <li>
+                                        1) The participating teams shall post an authentic meme
+                                        along with participant’s name and school’s name mentioned
+                                        (preferably on the lower right corner).
+                                    </li>
+                                    <li>2) Single meme per team is allowed.</li>
+                                    <li>
+                                        3) All memes are to be uploaded at subreddit r/HWMTS
+                                        (https://www.reddit.com/r/HWMTS/). The Sub-reddit will go
+                                        live on 15th July 2020@ 12:00 noon and will be closed for
+                                        posting on 16th July 2020@ 12:00 noon.
+                                    </li>
+                                    <li>4) It is a single winner event.</li>
+                                    <li>
+                                        5) Plagiarizing or using derogatory remarks against caste,
+                                        creed, race and individual personality will lead to
+                                        disqualification of participating teams. Political,
+                                        religious and controversial topics are not allowed.
+                                    </li>
+                                    <li>
+                                        6) Updates of the event can be checked at subreddit
+                                        r/HWMTS.
+                                    </li>
+                                </ul>
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Heads :</span>
+                        </p>
+                        <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                            <li>● Jidaan Dahiya -</li>
+                            <li>● Swapnil Tyagi - </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer" style="background: inherit; border: none;"></div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 pb-3" style="justify-content: center;">
+                <div class="card card-custom bg-black" style="
+              height: 450px;
+              background-color: #100f0f;
+              border: none;
+              color: white;
+            ">
+                    <div class="card-custom-img" style="background-image: url(https://i.imgur.com/m1GHdSc.png);"></div>
+                    <div style="background-color: black;" class="card-custom-avatar">
+                        <img class="img-fluid" src="https://i.imgur.com/a5RnKj6.png" alt="Avatar" />
+                    </div>
+                    <div class="card-body" style="overflow-y: auto;">
+                        <h4 class="card-title" style="font-family: 'nexa'; font-size: 2.2em;">
+                            Beyond The Limits
+                        </h4>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Classes :</span>
+                            <span style="opacity: 0.6; font-family: rale;">9 to 12</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">No. of Teams:</span>
+                            <span style="opacity: 0.6; font-family: rale;">1</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">No. of Participants per team :</span>
+                            <span style="opacity: 0.6; font-family: rale;">1</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Platform :</span>
+                            <span style="opacity: 0.6; font-family: rale;">Haywire Gaming Discord Server https://discord.com/invite/zYaRpRc
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Games :</span>
+                            <span style="opacity: 0.6; font-family: rale;"><span>
+                                    <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                                        <li>● Counter Strike : Global Offensive</li>
+                                        <li>● Brawlhalla</li>
+                                        <li>● Valorant</li>
+                                        <li>Note: There will be a surprise game.</li>
+                                    </ul>
+                                </span>
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Contact :</span>
+                            <span style="opacity: 0.6; font-family: rale;">gaming@haywire.in
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Rules :</span>
+                            <span>
+                                <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                                    <li>
+                                        1) Prelims will be conducted on 14th July 2020 from 10.30
+                                        am to 1.00 pm.
+                                    </li>
+                                    <li>
+                                        2) Results of the prelims will be uploaded on haywire.in
+                                        on 16thJuly 2020.
+                                    </li>
+                                    <li>3) Top 8 teams will qualify for the finals.</li>
+                                    <li>
+                                        4) Players must record their matches from their point of
+                                        view. When requested, they must send these recordings
+                                        without any editing to the haywire gaming team, in case of
+                                        suspicion of foul play.
+                                    </li>
+                                    <li>
+                                        5) Use of any unfair means will result in an instant
+                                        disqualification for the team.
+                                    </li>
+                                    <li>
+                                        6) If a player gets disconnected, failure to reconnect
+                                        within 5 minutes will result in the opponent team winning
+                                        the match. The Haywire gaming team should be notified in
+                                        case of technical issues.
+                                    </li>
+                                    <li>
+                                        7) Final round will be conducted on 18th July 2020 from
+                                        10.30 am to 1.00 pm.
+                                    </li>
+                                    <li>
+                                        8) Further information will be provided on the Discord
+                                        Server
+                                    </li>
+                                </ul>
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Heads :</span>
+                        </p>
+                        <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                            <li>● Rishav Kumar : </li>
+                            <li>● Vaibhav Khanna :</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer" style="background: inherit; border: none;"></div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 pb-3" style="justify-content: center;">
+                <div class="card card-custom bg-black" style="
+              height: 450px;
+              background-color: #100f0f;
+              border: none;
+              color: white;
+            ">
+                    <div class="card-custom-img" style="background-image: url(https://i.imgur.com/3K5sdwbl.png);"></div>
+                    <div style="background-color: black;" class="card-custom-avatar">
+                        <img class="img-fluid" src="https://i.imgur.com/RZSRuWf.png" alt="Avatar" />
+                    </div>
+                    <div class="card-body" style="overflow-y: auto;">
+                        <h4 class="card-title" style="font-family: 'nexa'; font-size: 2.2em;">
+                            Breaking Barriers
+                        </h4>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Classes :</span>
+                            <span style="opacity: 0.6; font-family: rale;">9 to 12</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">No. of Teams:</span>
+                            <span style="opacity: 0.6; font-family: rale;">1</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">No. of Participants per team :</span>
+                            <span style="opacity: 0.6; font-family: rale;">1</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Platform :</span>
+                            <span style="opacity: 0.6; font-family: rale;">PlayStation 4 and Xbox One
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Games :</span>
+                            <span style="opacity: 0.6; font-family: rale;">Paladins (Prelims) and Fortnite (Finals)
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Contact :</span>
+                            <span style="opacity: 0.6; font-family: rale;">console@haywire.in
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Rules :</span>
+                            <span>
+                                <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                                    <li>1) Prelims will be conducted on 13th July 2020.</li>
+                                    <li>
+                                        2) The participants must download the above mentioned
+                                        games before the event.
+                                    </li>
+                                    <li>
+                                        3) Join the Console Gaming Discord Server
+                                        https://discord.gg/pgGABkv beforehand.
+                                    </li>
+                                    <li>
+                                        4) The timings and rules will be provided on the Discord
+                                        Server.
+                                    </li>
+                                    <li>
+                                        5) The first round will eliminate 10 players and the
+                                        others will qualify for the final round.
+                                    </li>
+                                    <li>
+                                        6) Results of the prelims will be uploaded on haywire.in
+                                        by 16thJuly 2020.
+                                    </li>
+                                    <li>
+                                        7) Players are required to send a screenshot of the final
+                                        score as soon as the match ends.
+                                    </li>
+                                    <li>
+                                        8) If a player disconnects and doesn't return within 5
+                                        minutes, will result in immediate disqualification.
+                                    </li>
+                                    <li>
+                                        9) Final round will be conducted on 17 th July 2020.
+                                    </li>
+                                    <li>
+                                        10) Further queries will be resolved on the Discord Server
+                                    </li>
+                                </ul>
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Heads :</span>
+                        </p>
+                        <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                            <li>● Kshitij Agarwal </li>
+                            <li>● Sagar Warrier </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer" style="background: inherit; border: none;"></div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 pb-3" style="justify-content: center;">
+                <div class="card card-custom bg-black" style="
+              height: 450px;
+              background-color: #100f0f;
+              border: none;
+              color: white;
+            ">
+                    <div class="card-custom-img" style="background-image: url(https://i.imgur.com/ArAE6Fo.png);"></div>
+                    <div class="card-custom-avatar">
+                        <img class="img-fluid" src="https://i.imgur.com/bJJ3jjE.png" alt="Avatar" />
+                    </div>
+                    <div class="card-body" style="overflow-y: auto;">
+                        <h4 class="card-title" style="font-family: 'nexa'; font-size: 2.2em;">
+                            Let's Slide!
+                        </h4>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Classes :</span>
+                            <span style="opacity: 0.6; font-family: rale;">4 to 6</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">No. of Teams:</span>
+                            <span style="opacity: 0.6; font-family: rale;">1</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">No. of Participants per team :</span>
+                            <span style="opacity: 0.6; font-family: rale;">1</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Contact :</span>
+                            <span style="opacity: 0.6; font-family: rale;">letsslide@haywire.in
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Rules :</span>
+                            <span>
+                                <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                                    <li>
+                                        1) Prepare a PowerPoint presentation on the topic: Space
+                                        Tourism: When will it be a reality?
+                                    </li>
+                                    <li>
+                                        2) The presentation can have a maximum of 8-10 slides
+                                    </li>
+                                    <li>3) Software to be used – MS-PowerPoint.</li>
+                                    <li>
+                                        4) Participants are allowed to use images, sound and small
+                                        video clips from the Internet.
+                                    </li>
+                                    <li>
+                                        5) Participants must send the pptx file as well as the wmv
+                                        / mp4 file (video file of their presentation) through
+                                        e-mail.
+                                    </li>
+                                    <li>
+                                        6) Entries should be mailed to letsslide@haywire.in in a
+                                        zip file by 11th July 2020.
+                                    </li>
+                                    <li>
+                                        7) The subject line should be ‘presentation_schoolname’
+                                        and file name must be schoolname_participantname.
+                                    </li>
+                                </ul>
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Heads :</span>
+                        </p>
+                        <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                            <li>● Chehek Parashar </li>
+                            <li>● Kavya Singh </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer" style="background: inherit; border: none;"></div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-6 col-lg-4 pb-3 col-sm-4 container centeraligned" style=" vertical-align: middle; justify-content: center;">
+                <div class="card card-custom bg-black" style="
+              height: 450px;
+              background-color: #100f0f;
+              border: none;
+              color: white;
+            ">
+                    <div class="card-custom-img" style="background-image: url(https://i.imgur.com/ZxzVbqp.png);"></div>
+                    <div class="card-custom-avatar">
+                        <img class="img-fluid" src="https://i.imgur.com/5A2Jkzu.png" alt="Avatar" />
+                    </div>
+                    <div class="card-body" style="overflow-y: auto;">
+                        <h4 class="card-title" style="font-family: 'nexa'; font-size: 2.2em;">
+                            Quiz Enigma
+                        </h4>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Classes :</span>
+                            <span style="opacity: 0.6; font-family: rale;">9 to 12</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">No. of Teams:</span>
+                            <span style="opacity: 0.6; font-family: rale;">1</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">No. of Participants per team :</span>
+                            <span style="opacity: 0.6; font-family: rale;">1</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Platform Prelims :</span>
+                            <span style="opacity: 0.6; font-family: rale;">Zoom+exam.net
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Platform Finals :</span>
+                            <span style="opacity: 0.6; font-family: rale;">Zoom </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Contact :</span>
+                            <span style="opacity: 0.6; font-family: rale;">srquiz@haywire.in
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Rules :</span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Prelims :</span><span>
+                                <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                                    <li>
+                                        1) The prelims will be held on exam.net on 14th July 2020
+                                        from 12:00 noon to 12:30 pm
+                                    </li>
+                                    <li>
+                                        2) The exam key for entering the quiz on exam.net and Zoom
+                                        id will be provided in the whatsapp group of quiz
+                                        participants, which will be formed after the registration.
+                                    </li>
+                                    <li>
+                                        3) Students need 2 devices, from one device they will be
+                                        monitored on zoom and from the other they will open the
+                                        quiz link. The device must be placed on your either side,
+                                        in such a way that it captures your hands, face and the
+                                        device on which you are attempting the quiz.
+                                    </li>
+                                    <li>
+                                        4) The prelims would start at 12:00 noon. Participants
+                                        must join 15 minutes prior to the specified time for
+                                        filling their respective details.
+                                    </li>
+                                    <li>
+                                        5) There will be 20 questions in all and time allotted
+                                        will be 30 minutes.
+                                    </li>
+                                    <li>
+                                        6) Questions will be subjective with one word answer or a
+                                        sentence.
+                                    </li>
+                                    <li>
+                                        7) Results of the prelims will be uploaded to the website
+                                        on 16thJuly 2020.
+                                    </li>
+                                    <li>
+                                        8) Top 6 teams will be selected for competing in the
+                                        finals to be held on 19 th July 2020 on Zoom.
+                                    </li>
+                                </ul>
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Finals :</span>
+                            <span>
+                                <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                                    <li>
+                                        1) The finals will be held on zoom on 19th July 2020 @
+                                        1.00 pm where the short-listed participants and the Quiz
+                                        Master will be present.
+                                    </li>
+                                    <li>
+                                        2) The meeting ID and password for joining the zoom
+                                        meeting would be provided in the Whatsapp group.
+                                    </li>
+                                    <li>
+                                        3) The participants are required to keep their camera on
+                                        and their hands should be visible for monitoring.
+                                    </li>
+                                    <li>
+                                        4) The name of the participant in the Zoom should be in
+                                        the format “Name – School” <br />
+                                        o For example: ‘Rahul-MCS DW’
+                                    </li>
+                                    <li>5) In finals there will be 2 rounds.</li>
+                                    <li>
+                                        6) In round 1 there will be total 18 questions and each
+                                        team will get 3 questions to answer.
+                                    </li>
+                                    <li>6) Round 2 will be an Audio Visual Round.</li>
+                                </ul>
+                            </span>
+                        </p>
+                        <p class="card-text">
+                            <span style="font-family: 'rale';">Heads :</span>
+                        </p>
+                        <ul style="opacity: 0.6; font-family: rale;" class="list-unstyled">
+                            <li>● Yash Gautam </li>
+                            <li>● Saarthak Pant </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer" style="background: inherit; border: none;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid" style="background-color: #3b444b;">
+        <div class="container">
+            <h1 class="display-5 align-text-center" id="rules" style="font-family: plex; color: white;">
+                Rules &amp; Regulations
+            </h1>
+            <ul style="
+            font-family: 'pop';
+            color: white;
+            opacity: 0.6;
+            list-style-image: url('Bulb.svg');
+          " class="list-styled">
+                <li style="font-size: 120%; margin-bottom: 10px;">
+                    Online registration will close on 6th July, 2020.
+                </li>
+                <li style="font-size: 120%; margin-bottom: 10px;">
+                    Prize winners will get gift coupons and/or E-certificate.
+                </li>
+                <li style="font-size: 120%; margin-bottom: 10px;">
+                    To facilitate smooth communication, updates and inquiries, the
+                    Teacher In-charge from your school will be added to a WhatsApp
+                    group, after the registrations are completed.
+                </li>
+                <li style="font-size: 120%; margin-bottom: 10px;">
+                    Decision of the judges will be final and binding.
+                </li>
+                <li style="font-size: 120%; margin-bottom: 10px;">
+                    Updates about the events of Tech fest will be uploaded on our
+                    website and social pages.
+                </li>
+                <li style="font-size: 120%; margin-bottom: 10px;">
+                    Plagiarism leads to instant disqualification of the team.
+                </li>
+                <li style="font-size: 120%; margin-bottom: 10px;">
+                    Results of the Preliminary round will be declared by 16th July, 2020
+                    - 6pm.
+                </li>
+                <li style="font-size: 120%; margin-bottom: 10px;">
+                    Final results will be declared on 19th July, 2020 - 6pm.
+                </li>
+            </ul>
+        </div>
+    </div>
+    <span class="prizes" id="prizes"></span><br><br>
+    <div class="container-fluid padding" style="background-color: transparent; color: white">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4" style="font-family: pop">PRIZES</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="margin-right: 0;">
+        <div class="col-sm-1"></div>
+        <div style="margin: 2%;" class="col-sm-3">
+            <div class="card" style="border-radius: 15px; background-color: black;color: white;">
+                <div class="card-body">
+                    <h5 class="card-title" style="text-align: center; font-family: Nexa;font-size: 160%;">
+                        1<sup>st</sup> Prize
+                        <p></p>
+                    </h5><br>
+                    <img class="img-fluid" style="width: 30%; margin-left:32%;" src="fir.png"><br><br>
+                    <p class="card-text text-center" style="font-family:Plex;">
+                        <b>Gift Card + E - certificate</b>
+                    <p class="card-text text-center" style="font-family:Plex;font-size: 90%;"> TEAM OF TWO: &#8377; 1500 Amazon Gift Card
+                        <BR> SINGLE PERSON: &#8377; 1000 Amazon Gift Card
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <div style="margin: 2%;height: inherit;" class="col-sm-3">
+            <div class="card" style="border-radius: 15px; background-color: black;color: white;">
+                <div class="card-body">
+                    <h5 class="card-title" style="text-align: center; font-family: Nexa;font-size: 160%;">
+                        2<sup>nd</sup> Prize
+                        <p></p>
+                    </h5><br>
+                    <img class="img-fluid" style="width: 30%; margin-left:32%;" src="sec.png"><br><br>
+                    <p class="card-text text-center" style="font-family:Plex;">
+                        <b>Gift Card + E - certificate</b>
+                    <p class="card-text text-center" style="font-family:Plex;font-size: 90%;"> TEAM OF TWO: &#8377; 1000 Amazon Gift Card
+                        <BR> SINGLE PERSON: &#8377; 800 Amazon Gift Card
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <div style="margin: 2%;" class="col-sm-3">
+            <div class="card" style="border-radius: 15px; background-color: black;color: white;">
+                <div class="card-body">
+                    <h5 class="card-title" style="text-align: center; font-family: Nexa;font-size: 160%;">
+                        3<sup>rd</sup> Prize
+                        <p></p>
+                    </h5><br>
+                    <img class="img-fluid" style="width: 30%; margin-left:32%;" src="certi.png"><br><br>
+                    <p class="card-text text-center" style="font-family:Plex;">
+                        <b>E - certificate</b>
+
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <span id="updates"></span><br>
+        <div class="jumbotron jumbotron-fluid" style="width:100%; background-color:#3b444b;color: white;">
+            <div class="container">
+                <h1 class="display-4">Updates</h1>
+                <p class="lead">Check the latest updates here !<br>Latest Updates on top</p>
+                <ul>
+                    <li>The last date for submission for 
+App Matrix  has been extended. <br>
+
+Submissions can be done till 14th July, 11:59pm
+
+</li>
+                    <!--<li> The prelim file required for coDEcode event has been uploaded here.
+                        The file would be hidden from Normal view. The participants are required to find the file and proceed keeping in mind that the answer to Final Level lies in the file. Cryptographic tools are to be used to decrypt the audio.
+                        Leads and hints will be given on our Instagram handle <br>
+                        www.instagram.com/haywire_mcs.</li>-->
+                        <li>The preliminary round for *Algorithm Unlock* will be held on  *<a href="https://www.hackerrank.com/haywire-prelims-1591111947">https://www.hackerrank.com/haywire-prelims-1591111947</a>* from *8.00 pm to 9:30 pm* on *15 July, 2020* 
+                            
+                            Participants are expected to participate using the hackerrank Ids they have submitted to us.</li>
+                            <li>*Breaking Barriers - Console Gaming* 
+                                <br>
+                                The rules for Prelims will be as follows:
+                                <br>
+                                 *Paladins (13th July)* 
+                                <br>
+                                We will conduct a 1v1 tournament starting at 8pm , there will be no losers bracket it is a one time elimination.
+                                You all will be provided with a warm up match.
+                                The brackets will be posted soon, I request all Participants to stay active on the server.
+                                <br>
+                                 
+                                 Rules for Finals:
+                                 *Fortnite (17th July)* 
+                                <br>
+                                Full Battle Royale Custom Matches will be organised.
+                                3 matches, Point system will be used to judge the positions.
+                                <br>
+                                Each Elimination = 3 points
+                                <br>
+                                Placement:
+                                Top 10 - 10 points
+                                Top 5 - 5 points
+                                Victory - 10 points
+                                <br>
+                                For further information and any queries join the discord server :- 
+                                 *<a href="https://discord.gg/zYaRpRc">https://discord.gg/zYaRpRc</a>*</li>
+                                 <li>Beyond The Limits- PC Gaming
+                                    <br>
+                                    The rules for the event will be as follows :
+                                    <br>
+                                    Prelims(14th July) :
+                                    <br>
+                                    Two games will be played during the prelims ( CS:GO and surprise game).
+                                    The prelims will be conducted on a point based system with the participants being able to earn a maximum of 800 points ( 400 in each game).
+                                    The top 8 scorers will qualify for the finals.
+                                    <br>
+                                    CS: GO :
+                                    In CS:GO we will conduct a best of 10 rounds 1v1 custom matches with a total 400 winnable points. 100 points being awarded for the win and the rest being earned through round wins.
+                                    Surprise game :
+                                    In the surprise game the participants will have to take a screenshot of their top 3 attempts in the given time limit ( 30 mins) and post it in the submissions channel on the discord server.
+                                    <br>
+                                    Finals(18th July) :
+                                    Over the course of the finals custom 1v1 matches in 3 games will have to be played . These are the following:
+                                    Brawlhalla - Quarterfinals
+                                    Valorant - Semi finals
+                                    CS : GO - Finals
+                                    <br>
+                                    Please join the discord server for more info and for clarification of any queries : <a href="https://discord.gg/rNqrYqC">
+                                    https://discord.gg/rNqrYqC</a></li>
+                                    <li>
+                                        <br>
+                                        The last date for submission for 
+                                        *App Matrix*  and *Web Warriors* is *Monday, 13th July.*
+                                        <br>
+                                        For more details, visit the website <a href="www.haywire.in">www.haywire.in</a>
+                                        <br>
+                                        </li>
+                                        
+                                            <li>
+                                                <br>
+                                                The last date for submission for 
+                                                *Hackathon* is *Sunday, 12th July.*
+                                                <br>
+                                                For more details, visit the website <a href="www.haywire.in">www.haywire.in</a>
+                                                <br>
+                                                </li>
+                                                <li>
+                                                    The last date for submission for 
+                                                    *Let's Slide(.pptx and mp4 files)* and
+                                                     *Jr. Techies* is *Saturday, 11th July.*
+                                                    <br>
+                                                    For more details, visit the website <a href="www.haywire.in">www.haywire.in</a>
+                                                    <br>
+                                                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div class="container-fluid padding" style="background-color: transparent; color: white">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h1 class="display-4">OUR TEAM</h1>
+                </div>
+                <hr>
+                <div class="col-12">
+                    <p class="lead">TEAMWORK MAKES THE DREAM WORK!</p>
+                </div>
+
+            </div>
+        </div>
+        <div id="team"></div>
+
+        <div class="container centeraligned text-center" style="background-color: transparent;color: white;" style="padding-bottom: 50px;">
+
+
+            <div class="row">
+
+
+                <div class="col-sm-4" style="padding:20px;">
+                    <div class="card" style="width: 18rem;border-left:3.6px solid orangered;background-color: black; border-radius: 55px;border-right:3.6px solid orangered;">
+                        <img style="border-top-left-radius:55px;border-top-right-radius:55px;border:5px solid black;" class="card-img-top" src="https://i.imgur.com/nIbIMsl.jpg" alt="Card image cap">
+                        <div class="card-body" style="background-color: black;border-bottom-left-radius:55px;border-bottom-right-radius:55px;">
+                            <p class="lead" style="text-transform:uppercase; font-size:150%;">PRESIDENT</p>
+                            <p class="lead" style="margin:20px">Devanshu Sinha</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4" style="padding:20px;">
+                    <div class="card" style="width: 18rem;border-left:3.6px solid orangered;background-color: black; border-radius: 55px;border-right:3.6px solid orangered;">
+                        <img style="border-top-left-radius:55px;border-top-right-radius:55px;border:5px solid black;height: 294.33px;" class="card-img-top" src="lakss.jpg" alt="Card image cap">
+                        <div class="card-body" style="background-color: black;border-bottom-left-radius:55px;border-bottom-right-radius:55px;">
+                            <p class="lead" style="text-transform:uppercase; font-size:150%;">VICE PRESIDENT</p>
+                            <p class="lead" style="margin:20px">Laksshay Sehrawat</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4" style="padding:20px;">
+                    <div class="card" style="width: 18rem;border-left:3.6px solid orangered;background-color: black; border-radius: 55px;border-right:3.6px solid orangered;">
+                        <img style="border-top-left-radius:55px;border-top-right-radius:55px;border:5px solid black;" class="card-img-top" src="https://i.imgur.com/DjGQqiJ.jpg" alt="Card image cap">
+                        <div class="card-body" style="background-color: black;border-bottom-left-radius:55px;border-bottom-right-radius:55px;">
+                            <p class="lead" style="text-transform:uppercase; font-size:150%;">SECRETARY</p>
+                            <p class="lead" style="margin:20px">Varun Khantwal</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+
+                <div class="col-sm-2" style="padding:20px;">
+                </div>
+                <div class="col-sm-4" style="padding:20px;">
+                    <div class="card" style="width: 18rem;border-left:3.6px solid orangered;background-color: black; border-radius: 55px;border-right:3.6px solid orangered;">
+                        <img style="border-top-left-radius:55px;border-top-right-radius:55px;border:5px solid black;" class="card-img-top" src="https://i.imgur.com/Zt53nnN.jpg" alt="Card image cap">
+                        <div class="card-body" style="background-color: black;border-bottom-left-radius:55px;border-bottom-right-radius:55px;">
+                            <p class="lead" style="text-transform:uppercase; font-size:150%;">VFX HEAD</p>
+                            <p class="lead" style="margin:20px">Dhruv Srivastava</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4" style="padding:20px;">
+                    <div class="card" style="width: 18rem;border-left:3.6px solid orangered;background-color: black; border-radius: 55px;border-right:3.6px solid orangered;">
+                        <img style="border-top-left-radius:55px;border-top-right-radius:55px;border:5px solid black;" class="card-img-top" src="https://i.imgur.com/SRuJK08l.jpg" alt="Card image cap">
+                        <div class="card-body" style="background-color: black;border-bottom-left-radius:55px;border-bottom-right-radius:55px;">
+                            <p class="lead" style="text-transform:uppercase; font-size:150%;">GRAPHICS HEAD</p>
+                            <p class="lead" style="margin:20px">Lakshay Lakra</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $("#myModal").modal('show');
+        });
+    </script>
+    
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" style="background-color: white">
+                <div class="modal-header">
+                    <h4 class="modal-title" style="color: black">Updates and Alerts</h4>
+                    <button style="" type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+
+                    <ul class="" style="font-family: 'pop'; color: black;" id="abt">
+                                   <!--  <li style="font-size: 110%; list-style: none;">
+                               The results are for HayWire 3.0 are announced. <b>Check it out <a href = "final.pdf" download> now</a></b>
+
+
+                        </li>-->
+                        <li style="font-size: 110%; list-style: none;">
+                  Haywire 3.0 is a huge success. Thank you for your overwhelming response.
+Congratulations to all of you! 
+Intimation about the Prizes and e-certificates will be provided within two weeks.
+Looking forward to meeting you all again next year.     <b>Click  <a href = "final.pdf" download>here</a> to check the results.</b>
+
+
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer class="pt-5 pb-4 footer" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
+                <h5 class="mb-4 font-weight-bold">HOST SCHOOL</h5>
+                <p class="mb-4" style="font-family: Trajan; font-size: 110%;">
+                    Mount Carmel School, Dwarka
+                </p>
+                <ul class="f-address">
+                    <img class="img-fluid" src="https://i.imgur.com/K1akVDm.png" />
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
+                <h5 class="mb-4 font-weight-bold">TECH CLUB</h5>
+                <p class="mb-4" style="font-family: Olga; font-size: 160%;">
+                    HayWire
+                </p>
+                <ul class="f-address">
+                    <img class="img-fluid" alt="adoauiwv" src="https://i.imgur.com/Q50QYb6.png" />
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
+                <h5 class="mb-4 font-weight-bold">CONNECT WITH US</h5>
+                <ul class="social-pet mt-4">
+                    <li>
+                        <a href="https://www.facebook.com/haywiremcs/" title="facebook"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/Haywire_Club" title="twitter"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/haywire_mcs/?hl=en" title="instagram"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Copyright -->
+<section class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center text-white">
+                    &copy; 2020 HayWire. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</html>
